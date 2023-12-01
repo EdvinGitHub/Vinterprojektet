@@ -10,9 +10,9 @@ public class Enemy
     public Skepp enemy3x = new();
     public Skepp enemy4x = new();
     public Skepp enemy5x = new();
-    public Skepp enemy1y = new();
-    public Skepp enemy2y = new();
-    public Skepp enemy3y = new();
-    public Skepp enemy4y = new();
-    public Skepp enemy5y = new();
+    public Skepp enemy1h = new();
+    public Skepp enemy2h = new();
+    public Skepp enemy3h = new();
+    public Skepp enemy4h = new();
+    public Skepp enemy5h = new();
 }

@@ -6,17 +6,16 @@ public class Spelare
     int patorn = Random.Shared.Next();
     int xPosition;
     int yPosition;
-    public Skepp  spelare1x = new(); 
-    public Skepp  spelare2x = new(); 
-    public Skepp  spelare3x = new(); 
-    public Skepp  spelare4x = new(); 
-    public Skepp  spelare5x = new(); 
+    public Skepp  skepp1a = new(); 
+    public Skepp  skepp2a = new(); 
+    public Skepp  skepp3a = new(); 
+    public Skepp  skepp4a = new(); 
+    public Skepp  skepp5a = new(); 
+    public Skepp  skepp1b = new(); 
+    public Skepp  skepp2b = new(); 
+    public Skepp  skepp3b = new(); 
+    public Skepp  skepp4b = new(); 
+    public Skepp  skepp5b = new(); 
 
-    public Skepp  spelare1 = new(); 
-    public Skepp  spelare2 = new(); 
-    public Skepp  spelare3 = new(); 
-    public Skepp  spelare4 = new(); 
-    public Skepp  spelare5 = new(); 
-
-
+    public int  spelareH = new();  
 }
