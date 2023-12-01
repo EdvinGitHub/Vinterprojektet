@@ -3,9 +3,7 @@ namespace Vinterprojektet;
 
 public class Spelare
 {
-    int patorn = Random.Shared.Next();
-    int xPosition;
-    int yPosition;
+    
     public Skepp  skepp1a = new(); 
     public Skepp  skepp2a = new(); 
     public Skepp  skepp3a = new(); 

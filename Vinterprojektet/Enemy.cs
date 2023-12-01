@@ -3,8 +3,7 @@
 public class Enemy
 {
     int patorn = Random.Shared.Next();
-    int xPosition;
-    int yPosition;
+
     public Skepp enemy1x = new();
     public Skepp enemy2x = new();
     public Skepp enemy3x = new();
