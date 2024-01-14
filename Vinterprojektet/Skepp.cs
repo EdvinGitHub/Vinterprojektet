@@ -3,8 +3,8 @@
 public class Skepp
 {
     Enemy GetEnemy = new Enemy();
-    private List<Skepp> skot = new List<Skepp>();
-    private Skepp playerGoodShot = new();
+    public List<Skepp> skot = new List<Skepp>();
+    public Skepp playerGoodShot = new();
     public void PlayerHasShot()
     {
         
