@@ -107,32 +107,35 @@ while(true)
         {
             enemy.rutnätEnemy[x,y] = xy;    
             Console.SetCursorPosition(x, y);
-            for (int i = skep.skot.Count; i <= skep.skot.Count; i--)
-            {
-              if (skep.skot[i]  )
-              {}
-              else if(skep.skot[i] == xy)
-              {
-                Console.WriteLine("p");
-              }
-            }
             if (enemy.rutnätEnemy[x, y] is Skepp)
             {
-                Console.Write("s");
+                for (int i = skep.skots.Count; i <= skep.skots.Count; i--)
+                {
+                if (skep.skots[i] ==xy)
+                {Console.WriteLine("x");}
+                else
+                {Console.Write("s");}
+                }
             }
             else
             {
+                for (int i = skep.skots.Count; i <= skep.skots.Count; i--)
+                {
+                if(skep.skots[i] == xy)
+                {Console.WriteLine("p");}
+                else
                 Console.Write("o");
+                }
             }
         }
     }
     Console.WriteLine("På vilken x vill du skuta");
     skot = Console.ReadLine();
-    enemy.skotxPosition =  System.Convert.ToInt32(skot);
+    skep.skotxPosition =  System.Convert.ToInt32(skot);
     Console.WriteLine("På vilken y vill du skuta");
     skot = Console.ReadLine();
-    enemy.skotyPosition =  System.Convert.ToInt32(skot);
-    enemy.rutnätEnemy[enemy.skotxPosition,enemy.skotyPosition] = enemy.playerSkot;
+    skep.skotyPosition =  System.Convert.ToInt32(skot);
+    enemy.rutnätEnemy[skep.skotxPosition,skep.skotyPosition] = skep.playerSkot;
     skep.PlayerHasShot();
 
     Console.ReadLine();

@@ -5,13 +5,10 @@ public class Enemy
     public Skepp[,] rutnätEnemy = new Skepp[10, 10];
     int xPosition;
     int yPosition;
-    public int skotxPosition;
-    public int skotyPosition;
     int xPositionB;
     int yPositionB;
 
 
-    public Skepp playerSkot = new();
     private Skepp enemy1x = new();
     private Skepp enemy2x = new();
     private Skepp enemy3x = new();
