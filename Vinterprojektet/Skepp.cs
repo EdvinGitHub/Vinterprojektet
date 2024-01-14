@@ -9,8 +9,6 @@ public class Skepp
     public List<Skepp> skots = new List<Skepp>();
     public void PlayerHasShot()
     {
-        
-        
         skots.Add(playerSkot);
     }
 }

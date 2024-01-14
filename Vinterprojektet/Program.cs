@@ -109,7 +109,7 @@ while(true)
             Console.SetCursorPosition(x, y);
             if (enemy.rutnätEnemy[x, y] is Skepp)
             {
-                for (int i = skep.skots.Count; i <= skep.skots.Count; i--)
+                for (int i = 0; i <= skep.skots.Count; i++)
                 {
                 if (skep.skots[i] ==xy)
                 {Console.WriteLine("x");}
@@ -119,7 +119,7 @@ while(true)
             }
             else
             {
-                for (int i = skep.skots.Count; i <= skep.skots.Count; i--)
+                for (int i = 0; i <= skep.skots.Count; i++)
                 {
                 if(skep.skots[i] == xy)
                 {Console.WriteLine("p");}
