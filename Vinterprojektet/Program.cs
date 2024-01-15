@@ -101,6 +101,7 @@ while(true)
     Console.WriteLine();
     Console.ReadLine();
     Skepp xy= new();
+    int blok;
     for (int x = 0; x < enemy.rutnätEnemy.GetLength(0); x++)
     {
         for (int y = 0; y < enemy.rutnätEnemy.GetLength(1); y++)
@@ -109,34 +110,43 @@ while(true)
             Console.SetCursorPosition(x, y);
             if (enemy.rutnätEnemy[x, y] is Skepp)
             {
-                for (int i = 0; i <= skep.skots.Count; i++)
+                
+                for (int i = 0;i < spe.skots.Count; i++)
                 {
-                if (skep.skots[i] ==xy)
+                blok=i;
+                blok--;
+                if (spe.skots[i] ==xy)
                 {Console.WriteLine("x");}
-                else
-                {Console.Write("s");}
                 }
+                Console.Write("s");
+
             }
             else
             {
-                for (int i = 0; i <= skep.skots.Count; i++)
+                for (int i = 0; i < spe.skots.Count; i++)
                 {
-                if(skep.skots[i] == xy)
+                if(spe.skots[i] == xy)
                 {Console.WriteLine("p");}
-                else
+                }
+                for (int i = 0; i <= spe.skots.Count; i++)
+                {
+                if(spe.skots[i] != xy)
+                {
                 Console.Write("o");
+                }
                 }
             }
         }
     }
+    Console.WriteLine();
     Console.WriteLine("På vilken x vill du skuta");
     skot = Console.ReadLine();
-    skep.skotxPosition =  System.Convert.ToInt32(skot);
+    spe.skotxPosition =  System.Convert.ToInt32(skot);
     Console.WriteLine("På vilken y vill du skuta");
     skot = Console.ReadLine();
-    skep.skotyPosition =  System.Convert.ToInt32(skot);
-    enemy.rutnätEnemy[skep.skotxPosition,skep.skotyPosition] = skep.playerSkot;
-    skep.PlayerHasShot();
+    spe.skotyPosition =  System.Convert.ToInt32(skot);
+    enemy.rutnätEnemy[spe.skotxPosition,spe.skotyPosition] = spe.playerSkot;
+    spe.PlayerHasShot();
 
     Console.ReadLine();
 }

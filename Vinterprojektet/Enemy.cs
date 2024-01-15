@@ -24,18 +24,18 @@ public class Enemy
         int patorn;
         for (int i = 5; i > 0; i--)
         {
-            patorn = Random.Shared.Next(10);
+            patorn = Random.Shared.Next(9);
             xPosition = patorn;
-            patorn = Random.Shared.Next(10);
+            patorn = Random.Shared.Next(9);
             yPosition = patorn;
             patorn = Random.Shared.Next(4);
             if(yPosition == 0)
             {if(patorn == 1){patorn++;}}
-            if(yPosition == 10)
+            if(yPosition == 9)
             {if(patorn == 2){patorn--;}}
             if(xPosition == 0)
             {if(patorn == 4){patorn--;}}
-            if(xPosition == 10)
+            if(xPosition == 9)
             {if(patorn == 3){patorn++;}}
         
         yPositionB = yPosition;
@@ -53,9 +53,6 @@ public class Enemy
             if(patorn == 4 )
             {xPositionB--;}
             
-            
-   
-
             if(i==5)
             {rutnätEnemy[xPosition,yPosition] = enemy1x;
             rutnätEnemy[xPositionB,yPositionB] = enemy1h;}
