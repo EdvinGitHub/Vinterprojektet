@@ -101,7 +101,7 @@ while(true)
     Console.WriteLine();
     Console.ReadLine();
     Skepp xy= new();
-    int blok;
+
     for (int x = 0; x < enemy.rutnätEnemy.GetLength(0); x++)
     {
         for (int y = 0; y < enemy.rutnätEnemy.GetLength(1); y++)
@@ -113,12 +113,14 @@ while(true)
                 
                 for (int i = 0;i < spe.skots.Count; i++)
                 {
-                blok=i;
-                blok--;
                 if (spe.skots[i] ==xy)
                 {Console.WriteLine("x");}
                 }
-                Console.Write("s");
+                for (int i = 0;i <= spe.skots.Count; i++)
+                {
+                if (spe.skots[i] !=xy)
+                {Console.Write("s");}
+                }
 
             }
             else
