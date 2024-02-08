@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj": {}
+    "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj": {
+    "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj",
+        "projectUniqueName": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj",
         "projectName": "Vinterprojektet",
-        "projectPath": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj",
+        "projectPath": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\Vinterprojektet.csproj",
         "packagesPath": "C:\\Users\\edvin.arvesjo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\obj\\",
+        "outputPath": "C:\\Users\\edvin.arvesjo\\Desktop\\programering 2\\Vinterprojektet\\Vinterprojektet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edvin.arvesjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
